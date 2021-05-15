@@ -6,7 +6,8 @@ datasets = {
     'assist2017' : 'assist2017',
     'static2011' : 'static2011',
     'kddcup2010' : 'kddcup2010',
-    'synthetic' : 'synthetic'
+    'synthetic' : 'synthetic',
+    'DKT_available' : 'DKT_available'
 }
 
 # question number of each dataset
@@ -16,11 +17,12 @@ numbers = {
     'assist2017' : 102,
     'static2011' : 1224, 
     'kddcup2010' : 661,  
-    'synthetic' : 50
+    'synthetic' : 50,
+    'DKT_available' : 13517
 }
 
-DATASET = datasets['static2011']
-NUM_OF_QUESTIONS = numbers['static2011']
+DATASET = datasets['DKT_available']
+NUM_OF_QUESTIONS = numbers['DKT_available']
 # the max step of RNN model
 MAX_STEP = 50
 BATCH_SIZE = 64
