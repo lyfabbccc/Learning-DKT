@@ -18,7 +18,7 @@ numbers = {
     'static2011' : 1224, 
     'kddcup2010' : 661,  
     'synthetic' : 50,
-    'DKT_available' : 13517
+    'DKT_available' : 13076
 }
 
 DATASET = datasets['DKT_available']
